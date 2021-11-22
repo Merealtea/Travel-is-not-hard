@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".calender"
+            android:exported="false" />
+        <activity
+            android:name=".myself"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity

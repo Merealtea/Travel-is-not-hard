@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             int check = checkinput(username,password);
             switch (check){
                 case 0:
-                    Intent intent = new Intent(getApplicationContext(), Register.class);
+                    Intent intent = new Intent(MainActivity.this, search.class);
                     startActivity(intent);
                     break;
                 case 1:
