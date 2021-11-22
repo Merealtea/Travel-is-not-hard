@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">旅游不NAN</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="passwordhint">请输入密码</string>
+    <string name="usernamehint">请输入注册邮箱</string>
+    <string name="Login">登录</string>
+    <string name="toRegiter">没有账号？</string>
+    <string name="beginreg">开始注册</string>
+    <string name="setpassword">设置密码:</string>
+    <string name="checkpassword">确认密码:</string>
+    <string name="setemail">验证邮箱:</string>
+    <string name="setphonenum">手机号:</string>
+    <string name="finishreg">完成注册</string>
+    <string name="hintusername">设置你的用户名</string>
+    <string name="hintfirstpassword">设置你的密码</string>
+    <string name="hintsecondpassword">再次输入你的密码</string>
+    <string name="hintemail">输入你的邮箱</string>
+    <string name="hintphonenum">输入你的电话</string>
+</resources>
