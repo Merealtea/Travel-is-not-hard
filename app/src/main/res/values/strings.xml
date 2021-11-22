@@ -18,4 +18,10 @@
     <string name="hintsecondpassword">再次输入你的密码</string>
     <string name="hintemail">输入你的邮箱</string>
     <string name="hintphonenum">输入你的电话</string>
+    <string name="searchpage">搜索</string>
+    <string name="calenderpage">日程</string>
+    <string name="myselfpage">我的</string>
+    <string name="hintsearchlocation">输入想去的地方吧</string>
+    <string name="descriptionforsearchbutton">这是搜索键</string>
+    <string name="exit">退出</string>
 </resources>
