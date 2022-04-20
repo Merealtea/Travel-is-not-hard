@@ -55,7 +55,6 @@ public class calender extends AppCompatActivity {
     private Button comfirm_button;
     private LinearLayout fillname;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -142,7 +141,10 @@ public class calender extends AppCompatActivity {
         mi.inflate(R.menu.menu,menu);
         return true;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d11a32e94d55a24b554bfbbf60f291b3164cff7d
     @SuppressLint("NonConstantResourceId")
     public boolean onOptionsItemSelected(MenuItem Item)
     {
