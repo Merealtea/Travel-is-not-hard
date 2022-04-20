@@ -41,8 +41,9 @@ public class UserInfoShow extends AppCompatActivity {
         Showphonenumber.setText("用户电话号:" + Userphonenumber);
 
         EditButton.setOnClickListener(v -> {
-            Intent intent=new Intent(getApplicationContext(),UserInfoControl.class);
+            Intent intent=new Intent(UserInfoShow.this,UserInfoControl.class);
             startActivity(intent);
+            finish();
         });
 
     }

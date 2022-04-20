@@ -12,6 +12,11 @@ public class UserDataBaseHelper extends SQLiteOpenHelper {
             + "name TEXT(32), "
             + "password TEXT(32), "
             + "email TEXT(32), "
+            + "scene_num INTEGER, "
+            + "scene_list BLOB,"
+            + "schedule_num INTEGER, "
+            + "schedule_list BLOB, "
+            + "dist_info TEXT, "
             + "phone_number TEXT(32))";
 
 

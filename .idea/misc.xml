@@ -3,12 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_calender.xml" value="0.12604166666666666" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14114583333333333" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/drawable/et_bg.xml" value="0.12291666666666666" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/drawable/gps_point.xml" value="0.12291666666666666" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12291666666666666" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_calender.xml" value="0.264" />
         <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_myself.xml" value="0.12604166666666666" />
         <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_register.xml" value="0.4" />
-        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_routesearch.xml" value="0.25364583333333335" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_schedule.xml" value="0.264" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_search.xml" value="0.144" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_user_info_control.xml" value="0.10461956521739131" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/activity_user_info_show.xml" value="0.1" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/calenderlistitem.xml" value="0.536" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/item_child.xml" value="0.4" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/item_group.xml" value="0.4" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/layout/mode.xml" value="0.12864583333333332" />
         <entry key="..\:/University/Android/MyApplication/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/University/Android/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14114583333333333" />
       </map>
     </option>
   </component>

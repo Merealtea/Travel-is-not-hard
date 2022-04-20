@@ -2,7 +2,9 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ContentValues;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,12 +18,15 @@ public class Register extends AppCompatActivity {
     private EditText phonenum;
     private EditText username;
     private Button finishreg;
+    private UserDataBaseHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         initview();
+        //获取用户数据库
+        dbHelper = new UserDataBaseHelper(this, "UserInfo.db", null, 1);
         finishreg.setOnClickListener(v->{
             String new_password = firstpassword.getText().toString();
             String checkpasword = secondpassword.getText().toString();
@@ -32,6 +37,7 @@ public class Register extends AppCompatActivity {
             int ret = checkinput(new_password,checkpasword,new_phone,new_email,new_username);
             switch (ret){
                 case 0:
+                    AddUser(dbHelper,new_username,new_password,new_email,new_phone);
                     Toast.makeText(Register.this,"注册成功", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
@@ -73,5 +79,18 @@ public class Register extends AppCompatActivity {
         if(phonenum.length() != 11)
             return 3;
         return 0;
+    }
+
+    private void AddUser(UserDataBaseHelper dbHelper,String Username,String Password,String Email,String Phone_number){
+        SQLiteDatabase Userdb = dbHelper.getWritableDatabase();
+        ContentValues Userinfo = new ContentValues();
+        Userinfo.put("name", Username);
+        Userinfo.put("password",Password);
+        Userinfo.put("email",Email);
+        Userinfo.put("phone_number",Phone_number);
+        Userdb.insert("UserInfo",null,Userinfo);
+        Userinfo.put("scene_num",0);
+        Userinfo.put("schedule_num",0);
+        Userinfo.put("dist_info","");
     }
 }
