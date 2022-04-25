@@ -12,10 +12,12 @@
       
       模式一：省钱模式
             APP会更多推荐不需要打车，以公交和自行车为主的模式来进行规划
-            
+            ![image](https://github.com/Merealtea/Travel-is-not-hard/blob/main/AppShow/Mode1.gif)
       模式二：时间优先模式
             APP会考虑用户的出行时长最小，会推荐使用打车方式来进行规划
+            ![image](https://github.com/Merealtea/Travel-is-not-hard/blob/main/AppShow/Mode2.gif)
 功能3：长时间旅行提醒
       再好的景色也要休息好再来探索！
       APP会对对每个景点的游玩时长进行估计，若一天内游玩时间过长，APP将会进行提醒
+      ![image](https://github.com/Merealtea/Travel-is-not-hard/blob/main/AppShow/LongTimeReminder.gif)
       
