@@ -4,7 +4,7 @@
 功能1：旅游景点推荐\\
       搜索想要去的地方，就会推荐您目的地的景点！\\
       您可以添加进日程中，APP会自动帮你规划行程一条[酒店]->[景点]->[酒店]的闭环路线~\\
-      ![image](https://github.com/Merealtea/Travel-is-not-hard/edit/main/AppShow/SearchScene.gif)
+      ![image](https://github.com/Merealtea/Travel-is-not-hard/blob/main/AppShow/SearchScene.gif)
       
 功能2：出行交通路线规划
       APP会根据您选定的景点路线，生成出一条推荐的交通路线规划！
